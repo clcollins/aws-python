@@ -94,8 +94,9 @@ def create_new_ami(instance):
         status = new.update()
 
     if status == 'available':
-        # The new base image has been created and is available
-        # begin the rotation
+        # The new base image has been created and is available;
+        # Delete the parent instance & begin the rotation
+        # TODO: delete_instance(instance)
         rotate_ami(new)
 
     else:
@@ -131,7 +132,7 @@ def launch_instance(region, itype, ami, key, user_data, sec_grps, dry_run):
 
 # def ssh_and_patch(instance_id):
 
-    # Do something
+    # TODO: figure out the paramiko ssh client to handle yum updates
 
 
 # THE ORDER:
