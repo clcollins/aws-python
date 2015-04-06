@@ -3,9 +3,9 @@
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iEYEABECAAYFAlUb/N8ACgkQte6EFif3vzdTwQCfYk2Ht7aa/jH6r0ZgE1i/JN3e
-AckAnRVife+swIBV9aN96s0AslyXgw4F
-=fmuN
+iEYEABECAAYFAlUi5LIACgkQte6EFif3vzc2cACeIKUJu26yHo17UWNyMBo35z3N
+bo0AoLV4myfaG5GedV/mRCEVg5ZVWJu9
+=FdKa
 -----END PGP SIGNATURE-----
 
 ```
@@ -17,15 +17,17 @@ AckAnRVife+swIBV9aN96s0AslyXgw4F
 #### Expect
 
 ```
-size   exec  file                    contents                                                        
-             ./                                                                                      
-14             .gitignore            5a1c48902aa4e38786229ed6c871d85273e6680846fbf4a65ae5710981145d9f
-35122          LICENSE               12ac5047f2af0522f06798b1589ffc4599bc29c91f954d7874e0320634e777c0
-55             README.md             36d73bc04c3ea1864f8e244aa6ad0aa07ff62b3b2162b9c0ac9145ed252980c5
-349            list_images.py        f8908463ff42a031199ee4c16f6125b43d4005fc6c049c82b6a1fdeb683d6eb8
-423            list_instances.py     4df8fc57987c504f6e6facf14f6906fbe88442a4ccdcf94776b52d33f6bcdf50
-3891           patch_baseimage.py    a7e58ade886f0bf5aa37e71115b19e5e6dfe584488e80df832c2fd42a7a88471
-227            patch_dockerhosts.py  1d5a5e97430591d0db7291a4ec244eb6e0a4a418fd2e0c6c1451e0d8f5be186e
+size   exec  file                           contents                                                                                                                         
+             ./                                                                                                                                                              
+24             .gitignore                   dfb688dd33823d8603c9a4e8c6926d9f51e3a8bd9934808b784885e6ffb0cc1d                                                                 
+12288          .launch_reservations.py.swp  7e3217b336ade2752a368e67751cee3b58e1c9eda16b552495a143a021ae86d8|58be3dbac2c3140b1a95e37630673e2d4a2a663ffe7da82f7a5f2fba165bb3e3
+35122          LICENSE                      12ac5047f2af0522f06798b1589ffc4599bc29c91f954d7874e0320634e777c0                                                                 
+55             README.md                    36d73bc04c3ea1864f8e244aa6ad0aa07ff62b3b2162b9c0ac9145ed252980c5                                                                 
+349            list_images.py               f8908463ff42a031199ee4c16f6125b43d4005fc6c049c82b6a1fdeb683d6eb8                                                                 
+423            list_instances.py            4df8fc57987c504f6e6facf14f6906fbe88442a4ccdcf94776b52d33f6bcdf50                                                                 
+10449          patch_baseimage.py           df18e41f94c14d27a69a288ab82b174d371cc398506e828e7ad7267065bebeb2                                                                 
+736            patch_dockerhosts.py         0509431e22ef33214d15a67290d309ed3e95276fb09806874077d818a12ea9f6                                                                 
+3532           sync_amis.py                 17d8e83ca8cd3cb8b9ff004e9b6052841671eb08a38a025a4f7d8083c4c250c3                                                                 
 ```
 
 #### Ignore
